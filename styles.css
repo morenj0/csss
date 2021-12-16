@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+    background-color: hsla(170, 93%, 49%, 0.705);
+
+    color: rgb(9, 3, 24);
+
+    font-size: 16px; 
+    font-weight: normal;
+}
+
+a {
+    color: rgb(1, 4, 10);
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+a:active {
+ color: rgb(16, 67, 207);
+
+}
+    a:visited {
+        color: rosybrown;
+
+
+
+    }
+
+
+.kot {
+width: 200px;
+border-radius: 50px;
+
+box-shadow: 4px 4px 14px rgb(1, 4, 10) ;
+
+
+
+}
+.info {
+ margin-bottom: 20px;
+
+
+}
+
+.info p {
+    color:rgba(207, 45, 16, 0.589) ;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration:mediumvioletred;
+    /* text-transform: uppercase; */
+    letter-spacing: 10px ;
+    /* word-spacing: 40px; */
+        font-size: 40px;
+}
+/* box model */
+.box {
+    max-width: 100%;
+     margin: auto; 
+
+
+}
+
+
+
+
+
+.pol {
+
+    background: rgba(153, 151, 14, 0.452);
+    padding: 10px;
+    border: 5px solid red;
+    margin: 10px;
+
+}
+
+
+/* .boxmodel > div {
+    float: left;
+    background: rgb(1, 4, 10);
+    height: 200px;
+    border: 4 px solid ;
+    width: 25%;
+    box-sizing: border-box;
+
+
+} */
+    .bg-yellow {
+        background: #fff9dc;
+
+
+    }
+
+    .bg-green {
+        background: #e5ffe7;
+
+
+    }
+
+    .bg-red {
+        background: #ffe5e5;
+
+
+    }
+
+
+
+    .card {
+        padding: 15px 20px;
+        
+        margin-bottom: 20px;
+        border-radius: 30px;
+
+
+    }
+
+    .linklist {
+        list-style:none ;
+
+
+    }
+
+    .contact h3 {
+        text-align: center;
+   font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+    .form label {
+        display: block;
+        font-size: 14px;
+        color: rgb(40, 97, 204);
+    }
+
+    .form input {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid rgb(14, 143, 35);
+        color: rgb(0, 0, 0);
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+    }
+
+    .new p {
+        
+        font-size: 20px;
+
+    }
+    
+
+    .knopka {
+        background: black;
+        padding: 5px 10px ;
+        color: blanchedalmond;
+border: none;
+        font-family: inherit;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
+
+    .knopka:hover {
+
+        opacity: 0.9;
+
+
+    }
+
+
+    /* position
+    .pos {
+        position: relative;
+        border: 4px solid black;
+        margin-top: 40 px;
+        padding: 20 px;
+        height: 300px;
+    }
+
+
+            .boxs {
+                    position: fixed;
+                   top: 50px ;
+                   right: 50px;
+                   border-radius: 50%;
+                     width: 50px;
+                     height: 50px;
+                     background: khaki;
+
+            } */
+
+
+            .pat {
+               
+                text-align: center;
+                font-family:Georgia, 'Times New Roman', Times, serif
+                
+            }
